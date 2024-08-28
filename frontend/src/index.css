@@ -1,0 +1,134 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.add-cow-container {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-cow-container label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+.add-cow-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.add-cow-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.add-cow-container button:hover {
+  background-color: #0056b3;
+}
+
+.cows-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+.cows-list-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.cows-list-item h1 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.modal-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.modal-button:hover {
+  background-color: #218838;
+}
+
+.modal-content {
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.modal-title {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.modal-description {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.delete-update-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.delete-button,
+.update-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.delete-button {
+  background-color: #dc3545;
+}
+
+.update-button {
+  background-color: #ffc107;
+}
+
+.delete-button:hover {
+  background-color: #c82333;
+}
+
+.update-button:hover {
+  background-color: #e0a800;
+}
